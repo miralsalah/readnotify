@@ -1,0 +1,117 @@
+
+
+:root {
+  --font-poppins: Poppins;
+
+
+  --colors-bg: #f8fcff;
+  --colors-blue: #0b63e5;
+  --colors-body-copy: #505050;
+  --colors-dark-green-600: #009f40;
+  --colors-dark-green-800: #1e8f4c;
+  --colors-dark-sky: #3775d7;
+  --colors-green: #00af46;
+  --colors-light-green-border: #e5f6ec;
+  --colors-primary-sky: #4188f6;
+  --colors-sky-bg: #effaff;
+  --colors-text: #424242;
+  --colors-white: #fcffff;
+  
+  --fonts-sm-p: 16px;
+  --fonts-body: 18px;
+  --fonts-p: 20px;
+  --fonts-h5---button: 24px;
+  --fonts-h4: 28px;
+  --fonts-h3: 36px;
+  --fonts-h2: 44px;
+  --fonts-h1: 46px;
+  --paddding-card-padding: 40px;
+  --paddding-gap: 56px;
+  --paddding-inner-padding: 80px;
+  --paddding-padding-v: 100px;
+  --paddding-padding-h: 120px;
+  --width-height-icon-hight: 42px;
+  --width-height-min-links-width: 250px;
+  --width-height-card-min-width: 300px;
+  --width-height-large-card-min-w: 400px;
+  --width-height-btn-min-w: 400px;
+  --width-height-min-width: 400px;
+  --width-height-max-width: 500px;
+  --width-height-hero-img-mx-h: 550px;
+  --width-height-wrapper-max-width: 1260px;
+  --btn-h:52px;
+  --btn-p-v:12px;
+  --btn-p-h:16px;
+  
+}
+
+/***tablet**/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  :root{
+    --fonts-sm-p: 14px;
+    --fonts-body: 16px;
+    --fonts-p: 18px;
+    --fonts-h5---button: 20px;
+    --fonts-h4: 24px;
+    --fonts-h3: 28px;
+    --fonts-h2: 32px;
+    --fonts-h1: 40px;
+    --paddding-card-padding: 24px;
+    --paddding-gap: 32px;
+    --paddding-inner-padding: 40px;
+    --paddding-padding-h: 40px;
+    --paddding-padding-v: 60px;
+    --width-height-icon-hight: 32px;
+    --width-height-min-links-width: 200px;
+    --width-height-btn-min-w: 300px;
+    --width-height-card-min-width: 300px;
+    --width-height-large-card-min-w: 340px;
+    --width-height-min-width: 380px;
+    --width-height-hero-img-mx-h: 550px;
+    --width-height-max-width: 600px;
+    --width-height-wrapper-max-width: 680px;
+    --btn-h:48px;
+    --btn-p-v:10px;
+    --btn-p-h:12px;
+   
+
+  }
+}
+
+
+/***Mobile**/
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  :root{
+    --fonts-sm-p: 12px;
+    --fonts-body: 12px;
+    --fonts-p: 16px;
+    --fonts-h5---button: 18px;
+    --fonts-h4: 20px;
+    --fonts-h3: 22px;
+    --fonts-h2: 24px;
+    --fonts-h1: 28px;
+    --paddding-inner-padding: 0px;
+    --paddding-card-padding: 16px;
+    --paddding-gap: 24px;
+    --paddding-padding-h: 24px;
+    --paddding-padding-v: 40px;
+    --width-height-icon-hight: 24px;
+    --width-height-card-min-width: 140px;
+    --width-height-min-links-width: 200px;
+    --width-height-btn-min-w: 250px;
+    --width-height-max-width: 250px;
+    --width-height-min-width: 250px;  
+    --width-height-large-card-min-w: 270px;
+    --width-height-hero-img-mx-h: 310px;
+    --width-height-wrapper-max-width: 320px;
+    --btn-h:44px;
+    --btn-p-v:8px;
+    --btn-p-h:10px;
+
+  }
+  
+}
